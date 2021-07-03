@@ -1,3 +1,7 @@
+:root {
+    --cor-destaque: #d65834;
+    --cor-secundaria: black;
+}
 
 .cardBody{
     margin: auto;
