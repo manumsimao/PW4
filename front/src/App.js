@@ -13,7 +13,6 @@ class App extends Component {
           <Route path='/home' component={Home}/>
           <Route path='/receitas' component={Receitas}/>
           <Route path='/cadastro' component={Cadastro}/>
-          
           <Route path="/:nome" children={<Receita />} />
           <Route path='/home' component={Home}/>
           <Route path='/' component={Home}/>
